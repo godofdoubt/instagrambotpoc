@@ -1,0 +1,23 @@
+# General
+.DS_Store
+*.log
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Backend - Python / Django
+backend/db.sqlite3
+backend/__pycache__/
+backend/venv/
+backend/.venv/
+backend/*.pyc
+venv
+# Frontend - Node.js / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
